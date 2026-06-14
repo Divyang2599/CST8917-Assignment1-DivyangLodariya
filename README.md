@@ -102,9 +102,9 @@ Still, I think for 2026, Durable Functions is one of the better serverless tools
 
 1. Hellerstein, J. M., Faleiro, J., Gonzalez, J. E., Schleier,Smith, J., Sreekanti, V., Tumanov, A., & Wu, C. (2019). Serverless Computing: One Step Forward, Two Steps Back. CIDR 2019. https://arxiv.org/abs/1812.03651
 
-2. Microsoft Learn. (2024). Azure Durable Functions overview. https://learn.microsoft.com/en,us/azure/azure,functions/durable/durable,functions,overview
+2. Microsoft Learn. (2024). Azure Durable Functions overview. https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-overview
 
-3. Microsoft Learn. (2024). Durable Functions types and features. https://learn.microsoft.com/en,us/azure/azure,functions/durable/durable,functions,types,features,overview
+3. Microsoft Learn. (2024). Durable Functions types and features. https://learn.microsoft.com/en-us/azure/durable-task/common/what-is-durable-task#key-durable-task-use-cases
 
 ---
 
