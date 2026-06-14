@@ -43,16 +43,15 @@ Here is how they connect:
 
 ```mermaid
 graph TD
-    A[Client Function\nStarts the workflow] ,,> B[Orchestrator Function\nManages the steps]
-    B ,,> C[Activity 1\nDoes task A]
-    B ,,> D[Activity 2\nDoes task B]
-    B ,,> E[Activity 3\nDoes task C]
-    C ,,> B
-    D ,,> B
-    E ,,> B
-    B ,,> F[Final Result]
+    A[Client Function\nStarts the workflow] --> B[Orchestrator Function\nManages the steps]
+    B --> C[Activity 1\nDoes task A]
+    B --> D[Activity 2\nDoes task B]
+    B --> E[Activity 3\nDoes task C]
+    C --> B
+    D --> B
+    E --> B
+    B --> F[Final Result]
 ```
-
 This structure directly solves the paper's concern about complex workflows. Instead of one function trying to do everything in 15 minutes, the work is split across multiple small activities that are managed by the orchestrator.
 
 ### Topic 2: How State Is Saved (Event Sourcing)
