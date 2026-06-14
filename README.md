@@ -1,7 +1,7 @@
 # CST8917 Assignment 1 - Serverless Computing Analysis
 
-**Name:** Divyang Lodariya
-**Student Number:** 041267824
+**Name:** Divyang Lodariya  
+**Student Number:** 041267824  
 **Course:** CST8917  
 
 
