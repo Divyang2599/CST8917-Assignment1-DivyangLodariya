@@ -5,7 +5,7 @@
 **Course:** CST8917  
 
 
-,,, 
+---
 
 ## Part 1: Paper Summary
 
@@ -27,7 +27,7 @@ At the end, the paper suggests what future serverless platforms should look like
 
 Overall, the paper is saying: serverless removes the pain of managing servers, which is great. But until these four problems are fixed, it is not ready for serious distributed computing work.
 
-,,,
+---
 
 ## Part 2: Azure Durable Functions, Deep Dive
 
@@ -72,7 +72,7 @@ The paper showed that functions communicating through external storage (like S3)
 
 Fan,out / fan,in is a pattern where you start multiple tasks at the same time and then collect all results at the end. Think of it like assigning the same homework assignment to 5 people at once; they all work on it together, and then you collect everyone's work at the end. In Azure Durable Functions, the orchestrator uses `Task.WhenAll()` to start multiple activity functions at the same time. All activities run in parallel. Once every single one of them finishes, the orchestrator collects all the results together and continues. This is exactly what the midterm project does: four different analysis tasks run at the same time on a PDF, and then the results are combined. The paper said serverless has no good way to coordinate parallel work. Durable Functions make this easy and built in.
 
-,,,
+---
 
 ## Part 3: Critical Evaluation
 
@@ -96,7 +96,7 @@ But if I compare it to what the paper actually asked for , functions that can ta
 
 Still, I think for 2026, Durable Functions is one of the better serverless tools available, and it makes a lot of real-world use cases possible that were not practical before.
 
-,,,
+---
 
 ## References
 
@@ -106,7 +106,7 @@ Still, I think for 2026, Durable Functions is one of the better serverless tools
 
 3. Microsoft Learn. (2024). Durable Functions types and features. https://learn.microsoft.com/en,us/azure/azure,functions/durable/durable,functions,types,features,overview
 
-,,,
+---
 
 ## AI Disclosure
 
